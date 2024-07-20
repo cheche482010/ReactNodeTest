@@ -1,0 +1,22 @@
+.social-icons-container {
+  position: fixed;
+  right: 0; 
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-icon {
+  width: 50px; 
+  height: 50px; 
+  background-color: gray; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4f4c4c;
+  color: white;
+  font-size: 20px;
+}
+

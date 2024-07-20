@@ -1,0 +1,57 @@
+.Navbar {
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+
+    background-color:rgb(21 128 61 / 1);
+    color: #fff;
+
+    &__brand {
+        font-size: 25px;
+        font-weight: bold;
+        margin-inline: 1.5rem;
+    }
+
+    &__content {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+        margin-inline: 10%;
+    }
+
+    .islive{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        gap: 10px;
+        padding: 1rem;
+        font-size: 30px;
+
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+
+    .isjoin {
+        font-size: 30px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+        gap: 10px;
+        padding: 1rem;
+
+        span {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}

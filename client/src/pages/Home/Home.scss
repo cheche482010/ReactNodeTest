@@ -1,0 +1,123 @@
+.section-1 {
+    padding-inline: 5%;
+    margin-top: 5%;
+    .title {
+        font-size: 55px;
+        font-weight: bold;
+    }
+    .text-base{
+        font-size: 24px;
+    }
+
+    .img {
+        width: initial;
+        object-fit: cover;
+    }
+
+    .img-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.section-2 {
+    
+    .title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-lg {
+        width: 600px;
+    }
+
+    .card-content {
+        justify-content: space-around;
+    }
+
+    .img-card {
+        width: 400px !important;
+        height: 300px !important;
+    }
+
+    .relative{ 
+        width: 400px;
+    }
+}
+
+.section-3 {
+    .img-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text{
+        width: 400px;
+    }
+}
+
+
+.section-4 {
+
+    .img {
+       width: 400px;
+       height: 300px;
+    } 
+
+    .play {
+        width: 100px;
+    }
+}
+
+
+.section-5, .section-6 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+ .section-6 {
+    height: 600px;
+
+    .fondo {
+        position:absolute; 
+        width:100%; 
+        object-fit:fill;
+        z-index: -1; 
+        max-height: 600px;
+    }
+
+    .text {
+        h1 {
+            font-size: 65px;
+            line-height: normal;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+ }
+
+ .section-7{
+    .img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .font-bold {
+        font-size: 50px;
+    }
+ }
+
+.section-8{
+    .logo {
+        width: 400px;
+        height: 200px;
+    }
+
+    .text-left {
+        width: 400px;
+        font-weight: bold;
+    }
+}
